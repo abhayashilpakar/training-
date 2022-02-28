@@ -1,0 +1,372 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 85px;
+    background-color: #ffffff;
+    display: block;
+    padding: 15px 0;
+    
+}
+
+.semiHeader {
+    margin:0 50px;
+    width: 100%;
+    max-width: 1268px;
+
+}
+.mainHeader{
+    width: 100%;
+    height: 54px;
+    background-color: #ffffff;
+    display: block;
+    padding-right: 24px;
+
+
+    
+}
+
+.mainHeader a img{
+    height: 32px;
+   max-width: 268px;
+
+}
+
+.semi{
+    font-size: 14px;
+    width: 268px;
+    opacity: 0.48;
+    font-family: 'mukta',sans-serif;
+    display:block;
+    /* background-color: blue; */
+    margin-left: 0;
+    text-align: right;
+    
+}
+
+
+nav{
+    width: 100%;
+    height: 61px;
+    background-color: #2260bf;
+    display: block;
+  
+}
+
+.navbar{
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: orange; */
+    align-items: center;
+    
+}
+
+.mainNav{
+    width: 812px;
+    height: 61px;
+    /* background-color: aqua; */
+    margin: 0;
+   
+
+}
+
+.mainNav  li { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;  
+
+}
+    
+
+.mainNav li a{
+    padding:15px 20px 12px 0;
+    font-size: 22px;
+    display: inline-block;  
+    text-decoration: none;
+    font-family: 'mukta',sans-serif;
+    font-weight: bolder;
+    color: #fff;
+
+}
+.mainNav li a:hover{
+    color: #70c9ff;
+}
+
+.seminav{
+    width: auto;
+    height: 40px;
+    /* background-color: antiquewhite; */
+    margin-left: auto;
+    display: flex;
+    align-self:center;
+    align-items: center;
+    
+    
+}
+
+.timer a {
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    margin-left: 12px;
+    padding: 6px 0 0 0 ;
+    color: white;
+}  
+
+.trend a {
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    margin: 15px 12px;
+    color: white;
+}
+
+.user a{
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    margin :10px 10px;
+    color: white;
+}
+.bars a{
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    margin: 10px 10px;
+    color: white;
+}
+.sectionMain{
+    width: 100%;
+    height: 525px;
+    /* background-color: aqua; */
+    
+    margin-bottom: 20px;    
+    margin-top: 20px;
+
+}
+.sectionMain .sectionBox{
+    /* background-color: lightgreen; */
+    width: 100%;
+    max-width: 1248px;
+    
+    margin: 0 auto;
+
+    
+
+}  
+.tittlebar h2{
+    height: 45px;
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: 'khand',sans-serif;
+    align-items: center;
+    color: #2260bf;
+    line-height: 1;
+    /* background-color: red; */
+    
+}
+
+.contain{
+    height: 450px;
+    width: 100%;
+    /* background-color: lightcoral; */
+    margin: 0 auto;
+    display: flex;
+
+    
+    
+}
+
+.active{
+    width:290px;
+    /* background-color: aqua; */
+    margin-right: 30px;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.25s ease 0s;
+    width: 1598px;
+    /* border-radius: 4px; */
+    margin-bottom: 20px;
+    display: block;
+    
+}
+.active img{
+    max-width: auto;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 4px;
+    display: block;
+    /* padding-bottom: 25px; */
+    
+}
+
+.jpt{
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border-style :groove;
+    border-width: 1px;
+    border-left-style:none;
+    border-right-style:none;
+    
+}
+.footer{
+    width: 100%;
+    height: 379px;
+    padding: 60px 0 60px 0;
+    
+    background-color: rgba(34 96 191 / 4%);
+    
+}
+
+ .headFooter{
+    width: 100%;
+    max-width: 1248px;
+    height:258px;
+    margin: 0 auto;
+    /* background-color: lightgreen; */
+    
+
+}
+.bodyFooter{
+    width: 100%;
+    height: 258px;
+    /* background-color: lightpink; */
+    display: flex;
+
+}
+
+.babyFooterItem{
+    width: 250px;
+    height: 258px;
+    margin-right: 20px;
+    /* background-color: orange; */
+    display: block;
+}
+
+.babyFooterItem h4{
+    font-size: 22px;
+    margin: 0 0 20px;
+    line-height: 1;
+    font-family: khand,sans-serif;
+    font-weight: 600;
+    color: #2260bf;
+}
+
+.babyFooterItem ul li{
+    list-style-type: none;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(0,0,0,.48);
+    /* transition: all .3s ease; */
+    font-family: mukta,sans-serif;     
+
+
+}
+
+.babyFooterItem ul li:hover{
+    color:#70c9ff ;
+    cursor: pointer;
+}
+
+.mainFooter{
+    width: 100%;
+    height: 128px;
+    /* background-color: lightcoral; */
+    padding: 40px;
+    background-color: rgb(224 233 246);
+}
+
+.endFooter{
+    height: 48px;
+    /* background-color: aqua; */
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    display: block;
+    display: flex;
+}
+.online {
+    height: 100%;
+    text-align: left;
+    margin-right: 25px;
+    padding-right: 25px;
+    border-right: solid 1px rgba(0,0,0,.14);
+}
+
+.online img{
+    max-width: 240px;
+}
+
+.onlineSpan{
+    margin-right: 25px;
+    padding-right: 25px;
+    border-right: solid 1px rgba(0,0,0,.14);
+    /* background-color: #2260bf; */
+}
+.onlineSpan h5{
+    font-family: 'mukta',sans-serif;
+    margin: 0;
+    font-size: 18px;
+    color: rgba(0,0,0,.48);
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.onlineSpan h5 span{
+    font-size: 12px;
+    display: block;
+    line-height: 1;
+    font-family: 'mukta',sans-serif;
+    text-align: center;
+}
+
+.news{
+    padding-top: 10px;
+}
+
+
+ .media{
+    width: 216px;
+
+}
+.media a{
+    display: inline-block;
+    transition: all .3s ease;
+    font-size: 18px;
+    color: rgba(0,0,0,.48);
+    padding-right: 14px;
+    padding-bottom: 10px;
+    /* align-items: center; */
+}
+.media a:hover{
+    color: orange;
+}
+
+
+.spanEnd{
+
+    font-size: 12px;
+    line-height: 1;
+    display: block;
+    color: rgba(0,0,0,.48);
+    font-family: 'mukta',sans-serif;
+    text-align: center;
+
+}
